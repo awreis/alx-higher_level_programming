@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 str = "Holberton School"
 repeat = str * 3
-print(repeat f"{str}")
+print(repeat str[:10])
