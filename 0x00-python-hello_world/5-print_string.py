@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 str = "Holberton School"
-repeat = str * 3
-repeat1 = repeat + 'Holberton'
-print(repeat1)
+repeat = 3 * 'Holberton School' 'Holberton'
+print(f"{repeat}")
