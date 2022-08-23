@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 str = "Holberton School"
-print(f"{str}{str}{str}\nstr[:9]")
+print(f"{str}{str}{str}\nHolberton")
