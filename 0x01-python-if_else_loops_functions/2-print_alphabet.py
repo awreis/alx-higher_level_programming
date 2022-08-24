@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
-for letter in string.ascii_lowercase:
-    print(letter, end="")
+for c in range(ord('a'), ord('z')+1):
+    print('{}'.format(chr(c)), end='')
