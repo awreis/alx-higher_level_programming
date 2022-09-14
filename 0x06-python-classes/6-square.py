@@ -1,4 +1,4 @@
-#!/usr/in/python3
+#!/usr/bin/python3
 """
 Defines class Square with private size and position; and public area
 Can access and update size and position
