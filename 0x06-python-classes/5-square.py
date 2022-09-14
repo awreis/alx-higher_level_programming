@@ -6,7 +6,7 @@ Can print to stdout the square using #'s
 """
 
 
-class square:
+class Square:
     """Represent a square."""
 
     def __init__(self, size):
