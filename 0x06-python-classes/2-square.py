@@ -1,4 +1,4 @@
-#!/usr/bin/pytho3
+#!/usr/bin/python3
 """Define class Square with private attribute size and validates size"""
 
 
