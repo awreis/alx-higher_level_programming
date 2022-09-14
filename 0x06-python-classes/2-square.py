@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Define Sqaure class with private instance attribute size"""
+"""Define Sqaure class with private instance attribute size and validates size"""
+
 
     class Square:
         """Represent a square"""
