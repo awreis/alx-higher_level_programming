@@ -41,6 +41,7 @@ class Rectangle:
         """Retrieves the width of a Rectangle instance."""
         return self._height
 
+    @height.setter
     def height(self, value):
         """Sets the width of a Rectangle instance
 
