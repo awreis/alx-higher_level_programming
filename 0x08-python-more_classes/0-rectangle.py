@@ -4,6 +4,6 @@ Empty class
 """
 
 
-class rectangle:
+class Rectangle:
     """This is where the code goes"""
     pass
