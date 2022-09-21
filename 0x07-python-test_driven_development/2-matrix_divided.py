@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 Module 2-matrix_divided
 Defines a matrix division function
