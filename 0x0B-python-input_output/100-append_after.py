@@ -4,6 +4,7 @@ Module 100-append_after
 Contains function that appends str after lines that include keyword
 """
 
+
 def append_after(filename="", search_string="", new_string=""):
     """appends str after lines that include keyword (search_string)
     1. recreate content in new_text by copying lines over
