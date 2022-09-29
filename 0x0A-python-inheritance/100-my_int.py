@@ -5,6 +5,7 @@ Contains class MyInt that inherits from int
 Sneaky --> has == and != operators inverted!
 """
 
+
 class MyInt(int):
     """
     Methods:
