@@ -3,8 +3,8 @@
 Module 8-rectangle
 Contains parent class BaseGeometry
 with public instance method area and integer_validator
-Contains subclass Rectangle
-with instantiation of private attributes width and height, validated by parent
+Contains subclass Rectangle with
+instantiation of private attributes width and height, validated by parent.
 """
 
 

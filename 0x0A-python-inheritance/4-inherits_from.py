@@ -2,7 +2,7 @@
 """
 Module 4-inherits_from.py
 Contains method inherits_from
-returns True if obj is instance of class that it inherits from or is subcls of
+Returns True if obj is instance of class that it inherits from or is subcls of
 """
 
 

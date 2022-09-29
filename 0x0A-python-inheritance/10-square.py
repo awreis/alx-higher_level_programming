@@ -7,7 +7,7 @@ Contains subclass Rectangle
 with instantiation of private attributes width and height, validated by parent,
 extends parent's area method and prints with __str__
 Contains subclass Square
-with instantiation of private attribute size, validated by superclass
+with instantiation of private attribute size, validated by superclass.
 """
 
 Rectangle = __import__('9-rectangle').Rectangle

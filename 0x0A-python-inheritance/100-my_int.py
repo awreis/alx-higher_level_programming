@@ -2,7 +2,7 @@
 """
 Module 100-my_int
 Contains class MyInt that inherits from int
-Sneaky --> has == and != operators inverted!
+Sneaky --> has == and != operators inverted
 """
 
 
