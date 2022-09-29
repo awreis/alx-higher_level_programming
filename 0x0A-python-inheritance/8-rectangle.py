@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 """
-Creates a Rectangle class.
+Module 8-rectangle
+Contains parent class BaseGeometry
+with public instance method area and integer_validator
+Contains subclass Rectangle
+with instantiation of private attributes width and height, validated by parent
 """
 
 
@@ -8,22 +12,17 @@ BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Rectangle(BaseGeometry):
-        """Represents a rectangle
-        Private instance attributes:
-            width
-            height
-        Inherits from BaseGeometry
-        """
-
+    """inherits from BaseGeometry
+    Methods:
+        __init__(self, width, height)
+    """
     def __init__(self, width, height):
-        """Initializes an instance
-
+        """validate and initialize width and height
         Args:
-            width: rect width
-            height: rect height
+            width (int): private
+            height (int): private
         """
-
-        self.integer_validator("width", width)
-        self.integer_validator("height", height)
+        super().integer_validator("width", width)
         self.__width = width
-        self.__height = height
+        super().integer_validator("height", height)
+        self.__height = 
