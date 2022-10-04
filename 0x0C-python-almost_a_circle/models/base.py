@@ -17,7 +17,7 @@ import csv
 
 class Base():
     """
-    defines class Base
+    Defines class Base
     Class Attributes:
         __nb_objects
     Methods:
