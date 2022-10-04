@@ -50,7 +50,7 @@ class TestBase(unittest.TestCase):
         self.assertTrue(s2.id is not None)
 
     def test_attr_validated(self):
-        """Test attributes are validated before set"""
+        """test attributes are validated before set"""
         with self.assertRaisesRegex(TypeError, "width must be an integer"):
             Square("10")
             Square([10, 3])
