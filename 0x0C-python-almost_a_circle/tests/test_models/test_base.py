@@ -159,7 +159,7 @@ class TestBase(unittest.TestCase):
 
     """Test loading list of instances from JSON string repr of dict in file"""
     def test_load_from_file(self):
-        """Test load from file"""
+        """test load from file"""
         r = Rectangle(10, 7, 2, 8, 99)
         r2 = Rectangle(2, 4, 2, 2, 98)
         Rectangle.save_to_file([r, r2])
