@@ -40,7 +40,7 @@ class TestBase(unittest.TestCase):
         self.assertTrue(r1.id == 99)
 
     def test_default_attr(self):
-        """Test default attributes are set when not given"""
+        """test default attributes are set when not given"""
         r2 = Rectangle(3, 4)
         self.assertTrue(r2.width == 3)
         self.assertTrue(r2.height == 4)
