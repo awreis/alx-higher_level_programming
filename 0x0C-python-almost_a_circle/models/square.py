@@ -7,7 +7,7 @@ Contains public attribute size
 Prints [Square] (<id>) <x>/<y> - <size>
 Updates attributes: arg1=id, arg2=size, arg3=x, arg4=y
 Returns dictionary representation of attributes
-"""
+""
 
 
 from models.rectangle import Rectangle
