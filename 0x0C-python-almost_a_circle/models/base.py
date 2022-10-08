@@ -11,7 +11,7 @@ Saves to CSV and loads from CSV file
 """
 
 
-import json
+import jsn
 import csv
 import turtle
 
